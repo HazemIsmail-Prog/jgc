@@ -7,7 +7,7 @@
             <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         @foreach (config('sections') as $section)
-            <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+            <div class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                 <div class="flex-1 bg-white p-6 rounded-lg overflow-hidden shadow-lg border">
                     <div class="w-full font-bold text-xl text-primary mb-6">
                         {{ $section['title_' . app()->getLocale()] }}

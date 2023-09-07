@@ -6,7 +6,7 @@
         <div class="w-full mb-10">
             <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
-        <div class=" mx-auto p-6 flex flex-col md:items-center justify-start items-start gap-10 md:flex-row">
+        <div class=" mx-auto p-6 flex flex-col md:items-center justify-start md:justify-center items-start gap-10 md:flex-row md:flex-wrap">
 
             {{-- Whatsapp --}}
             <div class=" flex items-center justify-center gap-3">
